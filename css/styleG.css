@@ -1,8 +1,12 @@
-/* Section 1*/
-    body {
-      background: hwb(0 100% 0%);
-      font-family: 'Poppins', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
+/* Section 1*/
+   
+*{   
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
     }
     .motion-section {
       position: relative;
@@ -518,7 +522,6 @@
     }
 
     .circle-box h1 {
-       font-family:  'Plus Jakarta  Sans';
       font-size: 5rem;
       margin-bottom: 0.3rem;
       font-weight: 500;
@@ -786,7 +789,7 @@
 
     .section-wrapper {
       position: relative;
-      padding: 80px 15px;
+      
     
     }
 
@@ -2088,7 +2091,7 @@ p.section-third{
     margin-left: 0;
   }
 
-     .card-custom {
+     .card-customs {
       border: 1px solid #ddd;
       border-radius: 1rem;
       padding: 2rem;
@@ -2217,7 +2220,6 @@ p.section-third{
 
      body {
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
     }
 
@@ -2374,7 +2376,7 @@ p.section-third{
       display: block;
     }
 
-    .overlay-content {
+    .overlay-contenttwodiv {
       position: absolute;
       top: 0;
       left: 0;
@@ -2389,21 +2391,21 @@ p.section-third{
       border-radius: 20px;
     }
 
-    .overlay-content h2 {
+    .overlay-contenttwodiv h2 {
       font-size: 2.5rem;
       font-weight: 700;
-      margin-top: -25px;
+      margin-top: -45px;
     }
 
-    .overlay-content p {
-      font-size: 1.1rem;
+    .overlay-contenttwodiv p {
+      font-size: 1rem;
       font-weight: 400;
       margin-top: 10px;
     }
 
 
      @media (max-width: 1290px) {
-      .overlay-content p {
+      .overlay-contenttwodiv p {
         font-size: 1rem;
         
         
@@ -2412,7 +2414,7 @@ p.section-third{
     }
 
      @media (max-width: 1290px) {
-      .overlay-content p {
+      .overlay-contenttwodiv p {
         font-size: 0.76rem;
         
         
@@ -2420,14 +2422,14 @@ p.section-third{
       
     }
       @media (max-width: 1191px) {
-      .overlay-content h2 {
+      .overlay-contenttwodiv h2 {
         margin-top: -30px;
         
         
       }
     }
       @media (max-width: 991.80px) {
-      .overlay-content p {
+      .overlay-contenttwodiv p {
         font-size: 1.4rem;
         
         
@@ -2435,23 +2437,23 @@ p.section-third{
       
     }
     @media (max-width: 768px) {
-      .overlay-content h2 {
+      .overlay-contenttwodiv h2 {
         font-size: 3rem;
         
         
       }
-       .overlay-content p {
+       .overlay-contenttwodiv p {
         font-size: 0.8rem;
         
         
       }
     }
      @media (max-width: 615px) {
-      .overlay-content h2 {
+      .overlay-contenttwodiv h2 {
         margin-top: -30px;
         
         
-      }}
+    }}
      @media (max-width: 538px) {
   .image-box img {
     display: none;
@@ -2974,10 +2976,10 @@ p.section-third{
       }
     }
 
-      .card-custom {
+       .card-custom {
       border: 2px solid #90ee90 !important; /* light green */
-      border-radius: 10px;
-    }
+       border-radius: 10px; 
+     } 
     .card-img-left {
       width: 150px;
       height: 130px;
@@ -2992,7 +2994,7 @@ p.section-third{
     .arrow-link {
       color: #ffa94d;
       font-weight: 500;
-      text-decoration: underline;
+      
     }
     .arrow-link:hover {
       color: #ff7800;
@@ -3034,7 +3036,7 @@ p.section-third{
     }
 
 
-       .badge-custom {
+       .badge-customs{
         background-color: #f7b45c;
         color: white;
         font-size: 0.75rem;
@@ -3090,6 +3092,7 @@ p.section-third{
       
   
     }
+    
     .testimonial-card {
       border: 1px solid #e0e0e0;
       border-radius: 10px;
@@ -3097,19 +3100,21 @@ p.section-third{
       height: 100%;
       width: 100%;
       max-width: 700px;
-      
       overflow-x: hidden !important;
       
   
     }
-    .scroll-x-wrapper {
-      display: flex;
-      overflow-x: auto;
-      gap: 5rem;
-      
-     
-  
-    }
+
+.testimonial-wrapper .row:last-child {
+  margin-bottom: 0;
+}
+.testimonial-card {
+  margin-bottom: 0 !important;
+}
+
+
+
+ 
    
     .client-img {
       width: 40px;
@@ -3204,10 +3209,11 @@ p.section-third{
         }
 
         .city-icon {
-            width: 100px;
-            height: 85px;
-            object-fit: contain;
-            margin-bottom: 15px;
+            width: 70px;
+            height: 80px;
+            object-fit:contain;
+            object-position:bottom;
+           
         }
 
         .notation img {
@@ -3645,10 +3651,6 @@ p.section-third{
 
    
  /*Section 1*/
- body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #fff;
-    }
 
     .contact-section {
       position: relative;
@@ -3978,11 +3980,6 @@ p.section-third{
        
 
 /* alumini page */
-body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #fff;
-    }
 
     .hero-section2 {
       position: relative;
@@ -5337,11 +5334,11 @@ body {
       }
     
     
-.btn-contact{
+.btn-contacts{
     
     margin-top: 10px;
     padding: 20px 20px 20px 30px;
-    background: linear-gradient( #ba7f1f);
+    background: linear-gradient( #e4a45b);
     color: white;
     font-weight: 400;
     border-radius: 40px;
@@ -5661,17 +5658,17 @@ p.smallTextSize {
 
 
 
-        .city-name{
+        /* .city-name{
           font-size:1.3rem ;
           font-weight: 600;
           padding-top: 3px;
-        }
-        .city-icon {
+        } */
+        /* .city-icon {
             width: 100px;
             height: 85px;
             object-fit: contain;
             margin-bottom: 15px;
-        }
+        } */
          .cta-banner {
             background-color: #bd8e6c;
             color: rgba(0, 0, 0, 0.584);

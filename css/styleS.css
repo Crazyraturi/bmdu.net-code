@@ -1,13 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import "bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-      font-family: "Poppins", sans-serif;
+   font-family: "Plus Jakarta Sans";
+   
 }
 html, body {
   overflow-x: hidden; /* hides horizontal scroll */
+}
+
+.mobileappdevelopment{
+  font-weight: 800;
+  font-size: 96px;
+
 }
 
 /* iosPage */
@@ -624,16 +632,6 @@ html, body {
 }
 
 
-@import "bootstrap/scss/bootstrap";
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
-/* ---------- GLOBAL RESET ---------- */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
 
 /* ---------- UTILITIES ---------- */
 .gradient-text {
@@ -693,7 +691,7 @@ html, body {
 
 .mega-column a {
   display: block;
-  padding: 0.3rem 0;
+ 
   color: #555;
   font-size: 0.85rem;
   text-decoration: none;
@@ -706,7 +704,7 @@ html, body {
 /* Mega menu widths */
 .services-menu { min-width: 700px; }
 .location-menu { min-width: 600px; }
-.hire-menu { min-width: 300px; }
+.hire-menu { min-width: 350px; }
 .industries-menu { min-width: 150px; }
 
 /* Desktop Hover open */
@@ -972,15 +970,7 @@ a.dropdown-item:active,
         /* react native page */
 
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
 
-}
 html body{
   height: 100%;
   width: 100%;
